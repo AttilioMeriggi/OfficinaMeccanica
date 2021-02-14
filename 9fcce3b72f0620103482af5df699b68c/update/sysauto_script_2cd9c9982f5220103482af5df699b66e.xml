@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>NotificaMagazzino</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-02-08 23:43:03</run_start>
+        <run_time>1970-01-01 16:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// Query the database for NeedIt Task records with Due date field values older
+// then the current time.  Only return NeedIt Task records that do not have
+// a State field value of Closed Complete.
+var NotificaMagazzino = new GlideRecord('x_570161_officinam_amministrazioneveicoli');
+NotificaMagazzino.addQuery('richiesta','!=',2);
+
+NotificaMagazzino.query();
+// Write a log message for each overdue NeedIt Task record
+// Generate an event for each overdue NeedIt Task record
+while(NotificaMagazzino.next()){
+	gs.info("Notifica Magazzino = " + NotificaMagazzino.number);
+	gs.eventQueue('x_570161_officinam.NotificaMagazzino',NotificaMagazzino,NotificaMagazzino.number,gs.getUserName());
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 23:58:25</sys_created_on>
+        <sys_id>2cd9c9982f5220103482af5df699b66e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NotificaMagazzino</sys_name>
+        <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+        <sys_update_name>sysauto_script_2cd9c9982f5220103482af5df699b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 11:50:04</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

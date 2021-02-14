@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Client per aggiornare il record dopo la richiesta del meccanico o la fornitura</description>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>VerificaScortaMagazzino</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	/*var quantita = new GlideAjax("VerificaQuantitaMagazzino");
+	quantita.addParam("sysparm_name","verificaQuantita");
+	quantita.addParam("")
+	quantita.getXML(gestioneRichiesta);
+	function gestioneRichiesta(response) {
+		//alert("ciao ciao");
+		var verifica = response.responseXML.documentElement;
+		//.getAttribute("answer");
+	}*/
+	if(g_form.isNewRecord()) {
+		g_form.clearValue("stato");
+		g_form.setValue("stato",2);
+		return;
+	}
+	var quantita_corr = g_form.getValue("quantita");
+	if(quantita_corr>g_form.getValue("soglia")) {
+		g_form.clearValue("quantita");
+		g_form.setValue("quantita", quantita_corr-1);
+		g_form.clearValue("stato");
+		g_form.setValue("stato",1);
+		alert("La richiesta del Meccanico è stata soddisfatta direttamente dalla scorta di magazzino");
+	}
+	else {
+		g_form.clearValue("stato");
+		g_form.setValue("stato",2);
+		alert("La richiesta del Meccanico verrà soddisfatta dopo il rifornimento del magazzino");
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 15:15:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98b309f12fd220103482af5df699b64a</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>VerificaScortaMagazzino</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+        <sys_update_name>sys_script_client_98b309f12fd220103482af5df699b64a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-14 00:58:26</sys_updated_on>
+        <table>x_570161_officinam_magazzino</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

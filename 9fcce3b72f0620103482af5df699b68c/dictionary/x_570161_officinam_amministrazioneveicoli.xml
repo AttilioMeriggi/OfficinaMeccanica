@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AmministrazioneVeicoli" max_length="40" name="x_570161_officinam_amministrazioneveicoli" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Anno Immatricolazione" max_length="4" name="anno_immatricolazione" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Magazziniere" max_length="40" name="email_magazziniere" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Garanzia" max_length="40" name="garanzia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Si" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Magazziniere" max_length="32" name="magazziniere" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Marca" max_length="40" name="marca" type="string"/>
+        <element attributes="encode_utf8=false" label="Meccanico" max_length="32" name="meccanico" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Modello" max_length="40" name="modello" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Pezzo" max_length="32" name="pezzo" reference="x_570161_officinam_magazzino" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Invio Richiesta Pezzo" max_length="40" name="richiesta" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Inviare" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Soddisfatta" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Soddisfatta" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stato" max_length="2" name="stato" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aperto" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Chiuso" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="pezzo"/>
+        </index>
+        <index name="index2">
+            <element name="magazziniere"/>
+        </index>
+        <index name="index3">
+            <element name="meccanico"/>
+        </index>
+    </element>
+</database>

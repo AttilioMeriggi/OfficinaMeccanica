@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Magazzino" max_length="40" name="x_570161_officinam_magazzino" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="Fornitori" max_length="32" name="fornitori" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Garanzia" max_length="2" name="garanzia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Si" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantità" max_length="40" name="quantita" type="integer"/>
+        <element label="Soglia" max_length="40" name="soglia" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stato" max_length="40" name="stato" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Scorte sufficienti" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Invia Ordine" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tipologia pezzo" max_length="40" name="tipologia_pezzo" type="string"/>
+        <index name="index">
+            <element name="fornitori"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-07 22:20:02</sys_created_on>
+        <sys_id>c33da33b2f0620103482af5df699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_570161_officinam_amministrazioneveicoli.x_570161_officinam.meccanico</sys_name>
+        <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+        <sys_security_acl display_value="x_570161_officinam_amministrazioneveicoli">073da3f72f0620103482af5df699b645</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c33da33b2f0620103482af5df699b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-07 22:20:02</sys_updated_on>
+        <sys_user_role display_value="x_570161_officinam.meccanico" name="x_570161_officinam.meccanico">a1ecab772f0620103482af5df699b67d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

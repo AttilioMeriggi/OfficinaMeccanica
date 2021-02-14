@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fornitura" section_id="e49278d82f1220103482af5df699b6b4" sys_domain="global" table="x_570161_officinam_magazzino" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fornitori</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-12 15:01:21</sys_created_on>
+            <sys_id>e5c83b152f9a20103482af5df699b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fornitura" display_value="Fornitura" name="x_570161_officinam_magazzino" sys_domain="global" view="Default view">e49278d82f1220103482af5df699b6b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 15:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stato</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-12 15:01:21</sys_created_on>
+            <sys_id>69c83b152f9a20103482af5df699b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fornitura" display_value="Fornitura" name="x_570161_officinam_magazzino" sys_domain="global" view="Default view">e49278d82f1220103482af5df699b6b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 15:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-12 15:01:21</sys_created_on>
+            <sys_id>e9c83b152f9a20103482af5df699b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fornitura" display_value="Fornitura" name="x_570161_officinam_magazzino" sys_domain="global" view="Default view">e49278d82f1220103482af5df699b6b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 15:01:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-12 15:01:21</sys_created_on>
+            <sys_id>6dc83b152f9a20103482af5df699b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fornitura" display_value="Fornitura" name="x_570161_officinam_magazzino" sys_domain="global" view="Default view">e49278d82f1220103482af5df699b6b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 15:01:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fornitura</caption>
+            <header>false</header>
+            <name>x_570161_officinam_magazzino</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 22:01:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e49278d82f1220103482af5df699b6b4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_570161_officinam_magazzino</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+            <sys_update_name>sys_ui_section_e49278d82f1220103482af5df699b6b4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-12 15:01:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

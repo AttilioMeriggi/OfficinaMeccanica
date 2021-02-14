@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9d1ea33b2f0620103482af5df699b6f8" sys_domain="global" table="x_570161_officinam_amministrazioneveicoli" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>fcadb3372f4620103482af5df699b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>marca</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>74adb3372f4620103482af5df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>modello</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>f4adb3372f4620103482af5df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>garanzia</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>78adb3372f4620103482af5df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>anno_immatricolazione</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>f8adb3372f4620103482af5df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stato</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 23:31:43</sys_created_on>
+            <sys_id>7cadb3372f4620103482af5df699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_570161_officinam_amministrazioneveicoli" sys_domain="global" view="Default view">9d1ea33b2f0620103482af5df699b6f8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 23:31:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_570161_officinam_amministrazioneveicoli</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 22:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d1ea33b2f0620103482af5df699b6f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_570161_officinam_amministrazioneveicoli</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+            <sys_update_name>sys_ui_section_9d1ea33b2f0620103482af5df699b6f8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 22:23:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

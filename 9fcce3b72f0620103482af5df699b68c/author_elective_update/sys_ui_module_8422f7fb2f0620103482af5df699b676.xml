@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Fornitori">80f763372f0620103482af5df699b606</application>
+        <filter/>
+        <name>Fornitoris</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_570161_officinam.fornitori_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-07 22:41:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8422f7fb2f0620103482af5df699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fornitoris</sys_name>
+        <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+        <sys_update_name>sys_ui_module_8422f7fb2f0620103482af5df699b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-07 22:41:24</sys_updated_on>
+        <table>x_570161_officinam_fornitori</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</application>
+        <file_path/>
+        <instance_id>746525c0db21049407072f17d49619a6</instance_id>
+        <instance_name>dev95495</instance_name>
+        <name>sys_ui_module_8422f7fb2f0620103482af5df699b676</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fornitori">80f763372f0620103482af5df699b606</application><filter/><name>Fornitoris</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_570161_officinam.fornitori_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-07 22:41:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8422f7fb2f0620103482af5df699b676</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fornitoris</sys_name><sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package><sys_policy/><sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope><sys_update_name>sys_ui_module_8422f7fb2f0620103482af5df699b676</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-07 22:41:24</sys_updated_on><table>x_570161_officinam_fornitori</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-785017292</payload_hash>
+        <record_name>Fornitoris</record_name>
+        <reverted_from/>
+        <source>97cc6ff72f0620103482af5df699b6b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-07 22:41:24</sys_created_on>
+        <sys_id>8022f7fb2f0620103482af5df699b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777ea825b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-07 22:41:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c822f7fb4d062010b07ee6d50f046977</update_guid>
+        <update_guid_history>c822f7fb4d062010b07ee6d50f046977:-785017292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 10:53:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>a212af494fc14dc884ceb500218e0c40</sys_id>
+        <sys_metadata>8422f7fb2f0620103482af5df699b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fornitoris</sys_name>
+        <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
+        <sys_scope_delete display_value="">0650d4117ac843c49bf41d6a3ff6ef64</sys_scope_delete>
+        <sys_update_name>sys_ui_module_8422f7fb2f0620103482af5df699b676</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_8422f7fb2f0620103482af5df699b676">8022f7fb2f0620103482af5df699b678</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 10:53:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
