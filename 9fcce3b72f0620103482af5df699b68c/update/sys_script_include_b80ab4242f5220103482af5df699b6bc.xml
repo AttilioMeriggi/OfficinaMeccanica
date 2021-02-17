@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
-        <active>false</active>
+        <active>true</active>
         <api_name>x_570161_officinam.VerificaQuantitaMagazzino</api_name>
         <caller_access/>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <description>Verifica se la quantità presente in magazzino è sufficiente.</description>
         <name>VerificaQuantitaMagazzino</name>
         <script><![CDATA[var VerificaQuantitaMagazzino = Class.create();
@@ -17,22 +17,19 @@ VerificaQuantitaMagazzino.prototype = {
 		amministrazione.addQuery("richiesta","!=",2);
 		amministrazione.query();
 		while(amministrazione.next()) {
+			var id = amministrazione.getValue("number");
 			var pezzo = amministrazione.getValue("pezzo");
 			magazzino.addJoinQuery("x_570161_officinam_magazzino");
 			magazzino.query();
 			while(magazzino.next()) {
 				if(pezzo==magazzino.getValue("sys_id")) {
-					/*if(magazzino.getValue("quantita")>magazzino.getValue("soglia")) {
-						//magazzino.setValue("quantita",magazzino.getValue("quantita")-1);
-						//amministrazione.setValue("richiesta",2);*/
+					if(magazzino.getValue("stato")==1) {
+						gs.addInfoMessage(id);
+						amministrazione.setValue("richiesta",2);
+						amministrazione.setValue("stato",2);
 						return true;
-				}
-				/*else {
-						//magazzino.setValue("stato",2);
-						//amministrazione.setValue("richiesta",3);
-						return false;
 					}
-				}*/
+				}
 			}
 			return false;
 		}
@@ -44,13 +41,13 @@ VerificaQuantitaMagazzino.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-09 17:13:53</sys_created_on>
         <sys_id>b80ab4242f5220103482af5df699b6bc</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>VerificaQuantitaMagazzino</sys_name>
         <sys_package display_value="OfficinaMeccanica" source="x_570161_officinam">9fcce3b72f0620103482af5df699b68c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="OfficinaMeccanica">9fcce3b72f0620103482af5df699b68c</sys_scope>
         <sys_update_name>sys_script_include_b80ab4242f5220103482af5df699b6bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-13 16:32:32</sys_updated_on>
+        <sys_updated_on>2021-02-16 23:07:02</sys_updated_on>
     </sys_script_include>
 </record_update>
